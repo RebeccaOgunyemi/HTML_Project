@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create a HTML Form that accepts user data</title>
+</head>
+<body> 
+    <form>
+        <h1>Create a HTML Form that accepts user data</h1>
+        <div>
+            <label for="firstname" style="font-weight: bold;">FirstName</label>
+            <input type="text" id="firstname" placeholder="Enter your firstname">
+        </div><br>
+        <div>
+            <label for="lastname" style="font-weight: bold;">LastName</label>
+            <input type="text" id="lastname" placeholder="Enter your lastname">
+        </div><br>
+        <div>
+            <label for="username" style="font-weight: bold;">Username <sup>*</sup></label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Password <sup>*</sup></label>
+            <input type="password"id="username" placeholder="Enter your password" required>
+        </div><br>
+        <div>
+            <label for="email" style="font-weight: bold;">Email <sup>*</sup></label>
+            <input type="email" id="email" placeholder="email address" required>
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Phone Number</label>
+            <input type="tel" id="contact" placeholder="Enter your contact">
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Age</label>
+            <input type="number" id="age" placeholder="age">
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Date of Birth</label>
+            <input type="date" id="DoB" placeholder="Enter your DoB">
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Date/Time</label>
+            <input type="datetime-local" id="DoB" placeholder="Enter your DoB">
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Gender</label>
+            <select id="gender">
+                <option value="">Male</option>
+                <option value="" selected>Female</option>
+                <option value="">Others</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Places to visit:</label><br>
+            <input type="checkbox" checked> USA <br>
+            <input type="checkbox"> Canada <br>
+            <input type="checkbox"> South Africa <br>
+            <input type="checkbox"> New York <br>
+            <input type="checkbox"> Swizerland <br>
+            <input type="checkbox"> Paris <br>
+            <input type="checkbox"> Rome <br>
+            <input type="checkbox"> Amsterdam
+        </div><br>
+        <div>
+            <label for="" style="font-weight: bold;">Message:</label><br>
+            <textarea name="" id="notes" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+        </div><br> <br>
+       
+        <button type="submit" style="font-weight: bold; font-size: large;">Submit</button>
+    </form>
+</body>
+</html>
