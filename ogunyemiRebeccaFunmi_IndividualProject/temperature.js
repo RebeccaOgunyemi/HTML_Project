@@ -21,17 +21,9 @@ function temperatureConverter(valNum) {
       }
     }
     console.log(result)
-
-    // console.log(fromValue)
-    // console.log(toValue)
-    // valNum = parseFloat(result);
     document.getElementById('outputCelsius').innerHTML = parseFloat(result);
     
   }
-
-//variable and property- variable in a class is called property
-//function and method- function in a class is called method
-//argument(html) is what you declare while parameter(here) is what you pass in a function
   function resetForm(){
     console.log('reset')   
     document.getElementById('outputCelsius').innerHTML = '';
